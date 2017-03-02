@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		70A3175D1E687BC6000F1B27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3175C1E687BC6000F1B27 /* AppDelegate.swift */; };
-		70A3175F1E687BC6000F1B27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3175E1E687BC6000F1B27 /* ViewController.swift */; };
 		70A317621E687BC6000F1B27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A317601E687BC6000F1B27 /* Main.storyboard */; };
 		70A317641E687BC6000F1B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A317631E687BC6000F1B27 /* Assets.xcassets */; };
 		70A317671E687BC6000F1B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A317651E687BC6000F1B27 /* LaunchScreen.storyboard */; };
 		70A317721E687BC6000F1B27 /* PeekandPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A317711E687BC6000F1B27 /* PeekandPopTests.swift */; };
 		70A3177D1E687BC6000F1B27 /* PeekandPopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3177C1E687BC6000F1B27 /* PeekandPopUITests.swift */; };
+		70A3178B1E687DDF000F1B27 /* AttractionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3178A1E687DDF000F1B27 /* AttractionTableViewController.swift */; };
+		70A3178D1E687E36000F1B27 /* AttractionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3178C1E687E36000F1B27 /* AttractionTableViewCell.swift */; };
+		70A3178F1E6889D1000F1B27 /* AttractionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3178E1E6889D1000F1B27 /* AttractionDetailViewController.swift */; };
+		70A317911E6899F1000F1B27 /* previewingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A317901E6899F1000F1B27 /* previewingClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		70A317591E687BC6000F1B27 /* PeekandPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeekandPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A3175C1E687BC6000F1B27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		70A3175E1E687BC6000F1B27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		70A317611E687BC6000F1B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70A317631E687BC6000F1B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70A317661E687BC6000F1B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		70A317781E687BC6000F1B27 /* PeekandPopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeekandPopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A3177C1E687BC6000F1B27 /* PeekandPopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeekandPopUITests.swift; sourceTree = "<group>"; };
 		70A3177E1E687BC6000F1B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A3178A1E687DDF000F1B27 /* AttractionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionTableViewController.swift; sourceTree = "<group>"; };
+		70A3178C1E687E36000F1B27 /* AttractionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionTableViewCell.swift; sourceTree = "<group>"; };
+		70A3178E1E6889D1000F1B27 /* AttractionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionDetailViewController.swift; sourceTree = "<group>"; };
+		70A317901E6899F1000F1B27 /* previewingClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = previewingClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,10 @@
 		70A317501E687BC5000F1B27 = {
 			isa = PBXGroup;
 			children = (
+				70A3178A1E687DDF000F1B27 /* AttractionTableViewController.swift */,
+				70A317901E6899F1000F1B27 /* previewingClass.swift */,
+				70A3178E1E6889D1000F1B27 /* AttractionDetailViewController.swift */,
+				70A3178C1E687E36000F1B27 /* AttractionTableViewCell.swift */,
 				70A3175B1E687BC6000F1B27 /* PeekandPop */,
 				70A317701E687BC6000F1B27 /* PeekandPopTests */,
 				70A3177B1E687BC6000F1B27 /* PeekandPopUITests */,
@@ -98,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				70A3175C1E687BC6000F1B27 /* AppDelegate.swift */,
-				70A3175E1E687BC6000F1B27 /* ViewController.swift */,
 				70A317601E687BC6000F1B27 /* Main.storyboard */,
 				70A317631E687BC6000F1B27 /* Assets.xcassets */,
 				70A317651E687BC6000F1B27 /* LaunchScreen.storyboard */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70A3175F1E687BC6000F1B27 /* ViewController.swift in Sources */,
+				70A3178B1E687DDF000F1B27 /* AttractionTableViewController.swift in Sources */,
+				70A317911E6899F1000F1B27 /* previewingClass.swift in Sources */,
+				70A3178D1E687E36000F1B27 /* AttractionTableViewCell.swift in Sources */,
+				70A3178F1E6889D1000F1B27 /* AttractionDetailViewController.swift in Sources */,
 				70A3175D1E687BC6000F1B27 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
